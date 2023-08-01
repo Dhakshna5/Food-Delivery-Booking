@@ -71,14 +71,14 @@ METHOD 4 : displayDeliveryHistory()
 
 simply traverses all the values of tripHistory() list and displays
 
-METHOD 5 : displayDeliveryExecutiveActivity
+METHOD 5 : displayDeliveryExecutiveActivity()
 
 1. displays executive name
 2. allowance (10 for each trip)
 3. delivery charge
 4. total (allowance + delivery charge)
 
-METHOD 6 : isWithin15Minutes
+METHOD 6 : isWithin15Minutes()
 
 1. gets 2 parameters lastTime and currentTime
 2. lastTime = Executives previousDeliveryTime (calculated from assignDe)
